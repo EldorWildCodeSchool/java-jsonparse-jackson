@@ -1,9 +1,16 @@
+package com;
+
 public class Wind {
 
     private double speed;
     private double deg;
 
     public Wind() {
+    }
+
+    public Wind (double speed, double deg){
+        this.speed = speed;
+        this.deg = deg;
     }
 
     public double getSpeed() {
@@ -24,7 +31,7 @@ public class Wind {
 
     @Override
     public String toString() {
-        return "src.main.Wind{" +
+        return "src.main.com.Wind{" +
                 "speed=" + speed +
                 ", deg=" + deg +
                 '}';

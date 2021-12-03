@@ -1,3 +1,5 @@
+package com;
+
 public class Weather {
 
     private Long id;
@@ -42,7 +44,7 @@ public class Weather {
 
     @Override
     public String toString() {
-        return "src.main.Weather{" +
+        return "src.main.com.Weather{" +
                 "id=" + id +
                 ", main='" + main + '\'' +
                 ", description='" + description + '\'' +
